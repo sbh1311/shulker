@@ -14,6 +14,46 @@
 
     "IS_LOCAL_FILE": false,
     "LOCAL_FILE_PATH": "/usr/home/minecraft_server/logs/latest.log",
+{
+    "PORT": 8000,
+
+    "USE_WEBHOOKS": true,
+    "WEBHOOK_URL": "https://discordapp.com/api/webhooks/693150614896509058/vKeDpALsy-DEy1wQf7kK9Lik5J8ATgPE_ehFunsIAxYH01a7GQusA10gYwAf8hhZjZBv", 
+    "DISCORD_TOKEN": "NjkzMTIwNjI3NTc3NTg1NzA0.Xn8Xog.eXPV0YzQkD0i5qqm6uTR9pfpUI4",
+    "DISCORD_CHANNEL_ID": "602101154159001629",
+    "DISCORD_CHANNEL_NAME": "#test-placy",
+    "DISCORD_MESSAGE_TEMPLATE": "`%username%`: %message%",
+
+    "MINECRAFT_SERVER_RCON_IP": "83.86.4.18",
+    "MINECRAFT_SERVER_RCON_PORT": 25575,
+    "MINECRAFT_SERVER_RCON_PASSWORD": "9922yz85",
+    "MINECRAFT_TELLRAW_TEMPLATE": "[{\"color\": \"white\", \"text\": \"<%username%> %message%\"}]",
+
+    "IS_LOCAL_FILE": false,
+    "LOCAL_FILE_PATH": "/Cypphi Let's play/logs/latest.log",
+
+    "SHOW_INIT_MESSAGE": true,
+
+    "ALLOW_USER_MENTIONS": false,
+    "ALLOW_HERE_EVERYONE_MENTIONS": false,
+    "ALLOW_SLASH_COMMANDS": false,
+    "SLASH_COMMAND_ROLES": [],
+
+    "WEBHOOK": "/minecraft/hook",
+    "REGEX_SERVER_PREFIX": "\\[Server thread/INFO\\]:",
+    "REGEX_MATCH_CHAT_MC": "^<([^>]*)> (.*)",
+    "REGEX_IGNORED_CHAT": "packets too frequently",
+    "DEBUG": false,
+
+    "SERVER_NAME": "Shulker",
+    "SERVER_IMAGE": "",
+    "SHOW_PLAYER_CONN_STAT": false,
+    "SHOW_PLAYER_ADVANCEMENT": false,
+    "SHOW_PLAYER_DEATH": false,
+    "SHOW_PLAYER_ME": false,
+    "DEATH_KEY_WORDS": ["shot", "fell", "death", "died", "doomed", "pummeled", "removed", "didn't want", "withered", "squashed", "flames", "burnt", "walked into", "bang", "roasted", "squished", "drowned", "killed", "slain", "blown", "blew", "suffocated", "struck", "lava", "impaled", "speared", "fireballed", "finished", "kinetic"]
+}
+
 
     "ALLOW_USER_MENTIONS": false,
 
